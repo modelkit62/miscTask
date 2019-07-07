@@ -7,7 +7,7 @@ public class Recursividad_1 {
 
         int resultado;
 
-        if (numero == 1) {
+        if (numero == 1) { // caso base
             return 1;
         } else {
             resultado = numero + sumarecursiva(numero - 1);
