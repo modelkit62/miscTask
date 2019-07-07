@@ -12,7 +12,7 @@ public class Recursividad_5_numero_invertir {
     }
 
     public static void main(String[] args) {
-        int invierte = invierte(678, 2);
+        int invierte = invierte(678, 2); // 800 + 70 + 6
         System.out.println(invierte);
         System.out.println("---");
         System.out.println(678 % 10);
